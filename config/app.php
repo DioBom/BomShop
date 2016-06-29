@@ -156,6 +156,10 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        App\Providers\RepositoryServiceProvider::class,
+        App\Providers\AdminServiceProvider::class
+
     ],
 
     /*
@@ -202,6 +206,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        'Admin' => App\Support\Facades\Admin::class,
     ],
 
 ];
