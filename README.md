@@ -1,2 +1,2 @@
 # BomShop
-This is probably the best shopping system in the world.'DioBom' is boom~boom~boom~
+I'm so sorry for that this project has been dead.
